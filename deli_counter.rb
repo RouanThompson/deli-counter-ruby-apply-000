@@ -30,11 +30,11 @@ def take()
   position += 1
  end
 
-def now_serving(current_line)
-  if current_line.empty?
+
+def now_serving()
+  if position == 0
     puts "There is nobody waiting to be served!"
   else
-    puts "Currently serving #{current_line[0]}."
-    current_line.shift
+    puts "Currently serving #{position}."
   end
 end

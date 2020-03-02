@@ -24,10 +24,9 @@ def take_a_number(current_line, new_person)
   current_line << new_person
 end
 
-position
+position = 0
 def take()
   puts "Welcome, You are number #{position} in line."
-  current_line << new_person
   position
 end
 
@@ -39,5 +38,3 @@ def now_serving(current_line)
     current_line.shift
   end
 end
-
- 

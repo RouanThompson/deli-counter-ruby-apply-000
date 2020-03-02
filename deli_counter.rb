@@ -27,8 +27,8 @@ end
 position = 0
 def take()
   puts "Welcome, You are number #{position} in line."
-  position
-end
+  position += 1
+ end
 
 def now_serving(current_line)
   if current_line.empty?

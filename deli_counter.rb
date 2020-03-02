@@ -29,7 +29,7 @@ def take()
   puts "Welcome, You are number #{position} in line."
   current_line << new_person
   position
-end 
+end
 
 def now_serving(current_line)
   if current_line.empty?
